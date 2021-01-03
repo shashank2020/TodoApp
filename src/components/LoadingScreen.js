@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, ActivityIndicator } from 'react-native';
 
 export default class LoadingScreen extends Component {
     render() {
         return (
            <View style={styles.container}>
-               <Text>
-                   Loading Screen
-               </Text>
+              <ActivityIndicator color="86c5d8" size="large"/>
           </View>
         )
     }
